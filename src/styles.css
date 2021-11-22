@@ -1,0 +1,59 @@
+* {
+  background-color: blanchedalmond;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --button: #000;
+  --red: red;
+  --green: green;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.goBack {
+  margin: 0 auto 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 1.5rem;
+  background: transparent;
+  position: absolute;
+}
+.red {
+  border-color: var(--red);
+}
+.green {
+  border-color: var(--green);
+}
+.fieldsetMargin {
+  margin: 0.4rem 1rem 1rem 1rem;
+}
+.scoreContainer {
+  margin: 1rem auto 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 1.5rem;
+  background: transparent;
+  border: 1px solid var(--button);
+}
+.footer-container {
+  display: block;
+}
+.footer-container .footer-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon > * {
+  margin: 0.4rem;
+  padding: 0.5rem;
+  /* border: 2px solid var(--button); */
+  transition: 500ms;
+  animation-timing-function: linear;
+}
+a {
+  color: var(--button);
+}
+/* Applying syles inside all the children in footer-icon class  */
+.footer-icon > * :hover {
+  transform: scale(1.2);
+}
